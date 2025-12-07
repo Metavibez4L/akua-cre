@@ -1,0 +1,9 @@
+{
+  "webhookUrl": "http://localhost:3002/api/cre-webhook",
+  "webhookSecret": "akua-cre-staging-secret-key-change-in-production",
+  "chainName": "ethereum-testnet-sepolia-arbitrum-1",
+  "network": "arbitrumSepolia",
+  "escrowContractAddress": "0x4cE838B32469bAdD067C05EBc04A4c01EDcAE903",
+  "receiptRegistryAddress": "0xa04f93a8810727Fd1B2867432F5612391a9daF15",
+  "gasLimit": 800000
+}

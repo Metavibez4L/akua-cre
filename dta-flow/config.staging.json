@@ -1,0 +1,13 @@
+{
+  "webhookUrl": "http://localhost:3002/api/dta-webhook",
+  "webhookSecret": "akua-dta-staging-secret",
+  "chainName": "ethereum-testnet-sepolia-arbitrum-1",
+  "network": "arbitrumSepolia",
+  "dtaRequestManagerAddress": "0x4A52E850F9B76DA35D6B1E9055D60c007d396feF",
+  "escrowContractAddress": "0x4cE838B32469bAdD067C05EBc04A4c01EDcAE903",
+  "receiptRegistryAddress": "0xa04f93a8810727Fd1B2867432F5612391a9daF15",
+  "priceOracleAddress": "0x6199C8bf5be5513877899d9EB2cDd892F87D6066",
+  "cocoaTonTokenAddress": "0x1234567890123456789012345678901234567890",
+  "gasLimit": 800000
+}
+

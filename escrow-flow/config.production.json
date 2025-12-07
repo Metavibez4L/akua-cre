@@ -1,0 +1,9 @@
+{
+  "webhookUrl": "https://your-production-domain.com/api/cre-webhook",
+  "webhookSecret": "CHANGE-THIS-TO-SECURE-RANDOM-SECRET-IN-PRODUCTION",
+  "chainName": "ethereum-mainnet-arbitrum-1",
+  "network": "arbitrumOne",
+  "escrowContractAddress": "UPDATE-WITH-MAINNET-ESCROW-ADDRESS",
+  "receiptRegistryAddress": "UPDATE-WITH-MAINNET-RECEIPT-REGISTRY-ADDRESS",
+  "gasLimit": 800000
+}
