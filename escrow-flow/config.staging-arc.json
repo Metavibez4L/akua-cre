@@ -1,0 +1,9 @@
+{
+  "webhookUrl": "http://localhost:3002/api/cre-webhook",
+  "webhookSecret": "akua-cre-staging-secret-key-change-in-production",
+  "chainName": "arc-testnet",
+  "network": "arcTestnet",
+  "escrowContractAddress": "UPDATE-WITH-ARC-TESTNET-ESCROW-ADDRESS",
+  "receiptRegistryAddress": "UPDATE-WITH-ARC-TESTNET-RECEIPT-REGISTRY-ADDRESS",
+  "gasLimit": 800000
+}

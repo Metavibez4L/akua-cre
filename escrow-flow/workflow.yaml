@@ -25,6 +25,15 @@ staging-settings:
     
 
 # ==========================================================================
+staging-arc-settings:
+  user-workflow:
+    workflow-name: "escrow-flow-staging-arc"
+  workflow-artifacts:
+    workflow-path: "."
+    config-path: "./config.staging-arc.json"
+    secrets-path: ""
+
+# ==========================================================================
 production-settings:
   user-workflow:
     workflow-name: "escrow-flow-production"

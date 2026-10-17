@@ -21,6 +21,19 @@ staging-settings:
       url: https://sepolia-rollup.arbitrum.io/rpc
 
 # ==========================================================================
+# Arc Testnet (Circle L1, USDC native gas, chain ID 5042002).
+# Requires CRE CLI v1.0.7+ and cre-sdk-go v1.1.4+.
+staging-arc-settings:
+  rpcs:
+    - chain-name: arc-testnet
+      url: https://rpc.testnet.arc.io
+
+# ==========================================================================
+# Arc mainnet (chain ID 5042, RPC https://rpc.mainnet.arc.io) is not yet listed
+# in CRE's supported networks. Add a production-arc-settings target here once
+# Chainlink lists it, using the chain-name CRE publishes for it.
+
+# ==========================================================================
 production-settings:
   rpcs:
     - chain-name: ethereum-mainnet-arbitrum-1

@@ -1,0 +1,12 @@
+{
+  "webhookUrl": "http://localhost:3002/api/dta-webhook",
+  "webhookSecret": "akua-dta-staging-secret",
+  "chainName": "arc-testnet",
+  "network": "arcTestnet",
+  "dtaRequestManagerAddress": "UPDATE-WITH-ARC-TESTNET-DTA-REQUEST-MANAGER-ADDRESS",
+  "escrowContractAddress": "UPDATE-WITH-ARC-TESTNET-ESCROW-ADDRESS",
+  "receiptRegistryAddress": "UPDATE-WITH-ARC-TESTNET-RECEIPT-REGISTRY-ADDRESS",
+  "priceOracleAddress": "UPDATE-WITH-ARC-TESTNET-PRICE-ORACLE-ADDRESS",
+  "cocoaTonTokenAddress": "UPDATE-WITH-ARC-TESTNET-COCOA-TON-TOKEN-ADDRESS",
+  "gasLimit": 800000
+}

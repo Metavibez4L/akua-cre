@@ -1,0 +1,31 @@
+# ==========================================================================
+# CRE WORKFLOW SETTINGS FILE (dta-flow)
+# ==========================================================================
+# Mirrors escrow-flow/workflow.yaml so `cre workflow simulate . --target <name>`
+# works from this directory. Targets must also exist in ../project.yaml (RPCs).
+# ==========================================================================
+staging-settings:
+  user-workflow:
+    workflow-name: "dta-flow-staging"
+  workflow-artifacts:
+    workflow-path: "."
+    config-path: "./config.staging.json"
+    secrets-path: ""
+
+# ==========================================================================
+staging-arc-settings:
+  user-workflow:
+    workflow-name: "dta-flow-staging-arc"
+  workflow-artifacts:
+    workflow-path: "."
+    config-path: "./config.staging-arc.json"
+    secrets-path: ""
+
+# ==========================================================================
+production-settings:
+  user-workflow:
+    workflow-name: "dta-flow-production"
+  workflow-artifacts:
+    workflow-path: "."
+    config-path: "./config.production.json"
+    secrets-path: ""

@@ -4,6 +4,8 @@
 
 This document defines the different environments used for Akua CRE workflow testing and deployment.
 
+> **Arc Testnet** (`arc-testnet`, target `staging-arc-settings`) is available as an additional staging environment. See [ARC_MIGRATION.md](ARC_MIGRATION.md).
+
 ## Environment Configuration
 
 ### Staging (Testnet)
